@@ -1,0 +1,4 @@
+{
+  "es5to6": true,
+  "whitelist": ["5to6.arrowFunctions"]
+}
