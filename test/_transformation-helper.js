@@ -50,7 +50,7 @@ var run = function (task, done) {
   var execCode = exec.code;
   var result;
 
-  var noCheckAst = opts.noCheckAst;
+  var noCheckAst = opts.noCheckAst || opts.es5to6;
   delete opts.noCheckAst;
 
   var checkAst = function (result, opts) {
