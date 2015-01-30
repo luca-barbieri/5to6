@@ -1,19 +1,14 @@
 {
-  "name": "6to5",
-  "description": "Turn ES6 code into readable vanilla ES5 with source maps",
+  "name": "5to6",
+  "description": "Turn ES5 code into shorter and modern ES6 code",
   "version": "3.1.1",
-  "author": "Sebastian McKenzie <sebmck@gmail.com>",
+  "author": "Luca Barbieri <luca.barbieri@gmail.com>",
   "homepage": "https://6to5.org/",
   "repository": "6to5/6to5",
   "preferGlobal": true,
   "main": "lib/6to5/index.js",
   "bin": {
-    "6to5": "./bin/6to5/index.js",
-    "6to5-node": "./bin/6to5-node"
-  },
-  "browser": {
-    "./lib/6to5/index.js": "./lib/6to5/browser.js",
-    "./lib/6to5/register.js": "./lib/6to5/register-browser.js"
+    "5to6": "./bin/6to5/5to6.js"
   },
   "keywords": [
     "harmony",
@@ -22,10 +17,12 @@
     "let",
     "const",
     "var",
+    "es5",
     "es6",
     "transpile",
     "transpiler",
-    "6to5"
+    "6to5",
+    "5to6"
   ],
   "scripts": {
     "bench": "make bench",
