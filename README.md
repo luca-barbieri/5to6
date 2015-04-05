@@ -1,12 +1,14 @@
-<p align="center">
-  <img alt="6to5" src="https://raw.githubusercontent.com/6to5/logo/master/logo.png" width="546">
-</p>
+This is a fork of 6to5 that works in reverse, transforming ES5 to ES6.
 
-<p align="center">
-  <strong>6to5</strong> turns ES6+ code into vanilla ES5, so you can use next generation features <strong>today.</strong>
-</p>
+It requires the esgraph-5to6 project.
 
-<p align="center">
-  For more information view the <a href="https://6to5.github.io">documentation</a>. For
-  support visit the <a href="https://gitter.im/6to5/6to5">gitter room</a>.
-</p>
+It can:
+* Introduce arrow functions
+* Turn arrow functions into expressions
+* Introduce shorthand and method properties
+* Introduce classes
+* Turn var into let/const using an esgraph-based dataflow analysis
+
+It tries to be correct and not break your code, but this is not guaranteed.
+
+NOTE: this code is experimental and I'm not working on this at the moment, so expect bugs and don't expect new versions
